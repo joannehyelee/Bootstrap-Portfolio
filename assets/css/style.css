@@ -1,0 +1,182 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    background-image: url("../images/bg.png");
+    margin-bottom: 80px;
+}
+
+body > .container {
+    padding-top: 60px;
+}
+
+h1, h2, h3, h4, .navbar-brand, .portfolio {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.nav-link:hover, a:active {
+    text-decoration: underline;
+}
+
+/* COMMON */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.pl_0 {
+    padding-left: 0;
+}
+
+.pb_15 {
+    padding-bottom: 15px;
+}
+
+.pa_30 {
+    padding: 30px;
+}
+
+.pr_5 {
+    padding-right: 5px;
+}
+
+.pr_30 {
+    padding-right: 30px;
+}
+
+.pt_20 {
+    padding-top: 10px;
+}
+
+.lh_200 {
+    line-height: 200%;
+}
+
+.relative {
+    position: relative;
+}
+
+.bb {
+    border-bottom: 2px solid #CCCCCC;
+}
+
+/* NAVBAR */
+
+.nav_container {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc; 
+}
+
+.navbar-brand {
+    color: #4aaaa5 !important;
+    font-size: 170%;
+    font-weight: bold;
+}
+
+.about, .contact, .portfolio {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    margin-bottom: 15px;
+}
+
+.social {
+    background-color: #ffffff;
+    height: 200px;
+    border: 1px solid #cccccc;
+}
+
+.title:after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #cccccc;
+    margin: 12px 0 25px 0;
+}
+
+/* CONTACT */
+.contact input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 80%;
+}
+
+.contact p {
+    margin-bottom: 0;
+}
+
+input[type="text"],
+textarea {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+form p {
+    padding-bottom: 5px;
+}
+
+input::placeholder {
+    color: #cccccc;
+}
+
+input[type=submit] {
+    padding: 10px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: none;
+    width: 100px;
+}
+
+/* PORTFOLIO */
+.p_title {
+    background-color: #4aaaa5;
+    padding: 10px 0 0 0;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.portfolio > div {
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    background-color: #666666;
+    color: #dddddd;
+    font-size: 80%;
+    border-top: 10px solid #4aaaa5;
+}
+
+.footer p {
+    margin-top: 10px;
+}
