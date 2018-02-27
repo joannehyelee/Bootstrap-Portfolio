@@ -101,6 +101,10 @@ a {
     margin-bottom: 15px;
 }
 
+.bg-light {
+    background-color: #ffffff !important;
+}
+
 .social {
     background-color: #ffffff;
     height: 200px;
